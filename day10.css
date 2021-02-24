@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #00C6AD;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 10px;
+    width: 400px;
+    background-color: beige;
+}
+
+.container>div {
+    border: 1px dashed #888;
+}
+
+.topbar {
+    background-color: gold;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: linear-gradient( to bottom, gold 0%, gold 50%, white 50%, white 100%);
+}
+
+.search_bar {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.2);
+    display: flex;
+}
+
+.search_bar input {
+    width: 250px;
+    border: none;
+}
+
+.search_bar input::placeholder {
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.search_bar_icon {
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    margin: 30px 0px 0px 10px;
+}
+
+.day_info {
+    display: flex;
+    padding-top: 20px;
+}
+
+.day_info_pic img {
+    width: 130px;
+    height: 170px;
+    border-radius: 10px;
+    margin: 0px 0px 0px 10px;
+    box-sizing: border-box;
+}
+
+.day_info_text {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.day_info_text_title {
+    font-size: 25px;
+}
+
+.day_info_text_author {
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.day_info_text_stars {
+    color: gold;
+}
+
+.day_info_text_btn {
+    display: flex;
+    font-size: 16px;
+    justify-content: space-between;
+}
+
+.day_info_text_btn_jour,
+.day_info_text_btn_bio {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin: 20px 10px 10px 0px;
+}
+
+.day_info_text_btn_fav {
+    border-radius: 50%;
+    background-color: gold;
+    width: 40px;
+    text-align: center;
+    padding: 10px;
+}
+
+.day_info_text_btn_book {
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.top_book {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.top_book_list {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.top_book_list img {
+    width: 70px;
+    height: 100px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.top_book_list_stars {
+    font-size: 12px;
+    color: gold;
+    margin-top: 10px;
+}
+
+.pop {
+    display: flex;
+}
+
+.pop_text {
+    font-size: 15px;
+    padding: 20px 0px 0px 20px;
+}
+
+.pop_text_auth {
+    font-size: 20px;
+}
+
+.pop_text_cont {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.pop_pic img {
+    width: 120px;
+    border-radius: 10px;
+    height: 150px;
+    margin: 20px 0px 0px 10px;
+    box-sizing: border-box;
+}
